@@ -1,41 +1,42 @@
-import gradio as gr
-import requests
+import streamlit as st
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-API_BASE = "http://127.0.0.1:8000"
+from agents.orchestrator import ask, pre_visit_brief, churn_risk_check
 
-def ask_agent(cust_cd, query):
-    response = requests.post(f"{API_BASE}/ask", json={"cust_cd": cust_cd, "query": query})
-    return response.json()["answer"]
+st.set_page_config(page_title="Sales Intelligence Agent", layout="wide")
+st.title("Sales Intelligence Agent")
 
-def get_brief(cust_cd):
-    response = requests.post(f"{API_BASE}/pre-visit-brief", json={"cust_cd": cust_cd})
-    return response.json()["brief"]
+tab1, tab2, tab3 = st.tabs(["Ask Agent", "Pre-Visit Brief", "Churn Risk"])
 
-def check_churn(cust_cd):
-    response = requests.post(f"{API_BASE}/churn-risk", json={"cust_cd": cust_cd})
-    return response.json()["churn_risk"]
+with tab1:
+    cust_cd = st.text_input("Customer Code", placeholder="e.g. CT0000000050", key="ask_cust_cd")
+    query   = st.text_area("Your Question", placeholder="e.g. What is this customer's credit status?")
+    if st.button("Ask"):
+        if cust_cd and query:
+            with st.spinner("Thinking..."):
+                result = ask(cust_cd=cust_cd, query=query)
+                st.markdown(result)
+        else:
+            st.warning("Enter both a customer code and a question.")
 
-with gr.Blocks(title="Sales Intelligence Agent") as demo:
-    gr.Markdown("# Sales Intelligence Agent")
+with tab2:
+    cust_cd_brief = st.text_input("Customer Code", placeholder="e.g. CT0000000050", key="brief_cust_cd")
+    if st.button("Generate Brief"):
+        if cust_cd_brief:
+            with st.spinner("Generating brief..."):
+                result = pre_visit_brief(cust_cd=cust_cd_brief)
+                st.markdown(result)
+        else:
+            st.warning("Enter a customer code.")
 
-    with gr.Tab("Ask Agent"):
-        cust_cd_input = gr.Textbox(label="Customer Code", placeholder="e.g. CT0000000050")
-        query_input   = gr.Textbox(label="Your Question", placeholder="e.g. What is this customer's credit status?")
-        ask_btn       = gr.Button("Ask")
-        ask_output    = gr.Markdown(label="Answer")
-        ask_btn.click(fn=ask_agent, inputs=[cust_cd_input, query_input], outputs=ask_output)
-
-    with gr.Tab("Pre-Visit Brief"):
-        brief_cust_cd = gr.Textbox(label="Customer Code", placeholder="e.g. CT0000000050")
-        brief_btn     = gr.Button("Generate Brief")
-        brief_output  = gr.Markdown(label="Brief")
-        brief_btn.click(fn=get_brief, inputs=brief_cust_cd, outputs=brief_output)
-
-    with gr.Tab("Churn Risk"):
-        churn_cust_cd = gr.Textbox(label="Customer Code", placeholder="e.g. CT0000000050")
-        churn_btn     = gr.Button("Check Risk")
-        churn_output  = gr.Markdown(label="Result")
-        churn_btn.click(fn=check_churn, inputs=churn_cust_cd, outputs=churn_output)
-
-if __name__ == "__main__":
-    demo.launch()
+with tab3:
+    cust_cd_churn = st.text_input("Customer Code", placeholder="e.g. CT0000000001", key="churn_cust_cd")
+    if st.button("Check Risk"):
+        if cust_cd_churn:
+            with st.spinner("Checking churn risk..."):
+                result = churn_risk_check(cust_cd=cust_cd_churn)
+                st.markdown(result)
+        else:
+            st.warning("Enter a customer code.")
