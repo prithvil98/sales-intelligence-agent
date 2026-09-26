@@ -69,7 +69,7 @@ def ingest():
             ids.append(f"{source}_{i}")   # → "product_catalog_0", "product_catalog_1"
             metas.append({"source": source})   # → {"source": "product_catalog"}
 
-        collection.add(
+        collection.upsert(
             documents=chunks,
             ids=ids,
             metadatas=metas

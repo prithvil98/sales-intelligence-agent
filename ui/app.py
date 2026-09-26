@@ -8,6 +8,13 @@ from agents.orchestrator import ask, pre_visit_brief, churn_risk_check
 st.set_page_config(page_title="Sales Intelligence Agent", layout="wide")
 st.title("Sales Intelligence Agent")
 
+@st.cache_resource
+def initialize_rag():
+    from rag.ingest import ingest
+    ingest()
+
+initialize_rag()
+
 tab1, tab2, tab3 = st.tabs(["Ask Agent", "Pre-Visit Brief", "Churn Risk"])
 
 with tab1:
