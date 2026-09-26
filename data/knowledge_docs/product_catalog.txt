@@ -1,0 +1,109 @@
+PRODUCT CATALOG — FIELD SALES REFERENCE
+
+=== BEVERAGES ===
+
+PRD-001 | Beverage Powder 2kg | INR 3,750/EA
+  Best for: Wholesalers, large format retailers
+  Key message: Best margin in category. Recommend 2-week stock cover.
+  Shelf life: 18 months. Store in cool, dry place.
+
+PRD-002 | Beverage Powder 500g | INR 1,050/EA
+  Best for: Minimarkets, small retailers
+  Key message: Entry price point. High velocity. Maintain 3-week stock.
+  Shelf life: 18 months. Store in cool, dry place.
+
+PRD-003 | Instant Drink Mix 1kg | INR 2,300/EA
+  Best for: All channels
+  Key message: Seasonal spike November-December. Pre-order 30% extra in Q4.
+  Shelf life: 24 months. Store in cool, dry place.
+
+PRD-004 | Fruit Drink Sachet 30s | INR 650/EA
+  Best for: Minimarkets, corner stores
+  Key message: Impulse buy. Place near counter. High repeat purchase.
+  Shelf life: 12 months. Store away from direct sunlight.
+
+PRD-017 | Cereal Box 500g | INR 1,999/EA
+  Best for: Supermarkets, modern trade
+  Key message: Growing segment. Premium shelf placement important.
+  Shelf life: 12 months. Store in cool, dry place.
+
+PRD-019 | Premium Coffee 250g | INR 2,900/EA
+  Best for: Supermarkets, hotel/HoReCa
+  Key message: Highest unit margin in portfolio. Target premium accounts.
+  Shelf life: 24 months. Keep sealed after opening.
+
+PRD-020 | Cocoa Powder 500g | INR 1,500/EA
+  Best for: Bakeries, food service, minimarkets
+  Key message: Year-round demand. Pair with PRD-001 for combo upsell.
+  Shelf life: 24 months. Store in cool, dry place.
+
+=== DAIRY ===
+
+PRD-005 | Creamer Powder 1kg | INR 1,850/EA
+  Best for: Coffee shops, food service, wholesalers
+  Key message: Steady demand. Never out-of-stock item. Minimum 4 weeks cover.
+  Shelf life: 24 months. Store in cool, dry place away from moisture.
+
+PRD-006 | Full Cream Milk 1L | INR 1,550/EA
+  Best for: Supermarkets, minimarkets
+  Key message: Short shelf life 30 days. Rotate stock strictly.
+  Shelf life: 30 days. Refrigerate at all times.
+
+PRD-007 | Condensed Milk 500g | INR 1,150/EA
+  Best for: All channels, especially traditional trade
+  Key message: Most ordered dairy SKU. Core assortment for every outlet.
+  Shelf life: 12 months. Store in cool, dry place.
+
+PRD-008 | Low Fat Milk 1L | INR 1,600/EA
+  Best for: Health-conscious channels, supermarkets
+  Key message: Growing segment. Pair with PRD-017 cereal for combo promotion.
+  Shelf life: 30 days. Refrigerate at all times.
+
+PRD-018 | Oat Drink 1L | INR 1,699/EA
+  Best for: Premium supermarkets, health stores
+  Key message: Fast-growing alternative dairy. Limited distributor stock, order early.
+  Shelf life: 9 months. Refrigerate after opening.
+
+=== CONFECTIONERY ===
+
+PRD-009 | Chocolate Bar 50g | INR 290/EA
+  Best for: All channels, counter placement
+  Key message: Highest velocity SKU in category. Reorder every week.
+  Shelf life: 12 months. Store below 25 degrees. Avoid direct sunlight.
+
+PRD-010 | Wafer Biscuit 150g | INR 420/EA
+  Best for: Minimarkets, convenience stores
+  Key message: Pairs well with PRD-009 for gifting bundles.
+  Shelf life: 9 months. Store in cool, dry place.
+
+PRD-011 | Chocolate Box 200g | INR 1,350/EA
+  Best for: Supermarkets, gift season Nov-Dec, Chinese New Year
+  Key message: Seasonal SKU. Stock 6 weeks before festive period.
+  Shelf life: 12 months. Store below 25 degrees. Avoid direct sunlight.
+
+PRD-012 | Candy Assorted 200g | INR 580/EA
+  Best for: All channels
+  Key message: Stable velocity. Good filler for mixed orders.
+  Shelf life: 18 months. Store in cool, dry place.
+
+=== CULINARY ===
+
+PRD-013 | Seasoning Powder 500g | INR 920/EA
+  Best for: Food service, restaurants, wholesalers
+  Key message: High repeat purchase. Loss of distribution is hard to recover.
+  Shelf life: 24 months. Store in cool, dry place. Keep sealed after opening.
+
+PRD-014 | Cooking Cream 250ml | INR 1,100/EA
+  Best for: HoReCa, food service
+  Key message: Niche but loyal channel. Relationship-driven.
+  Shelf life: 6 months. Refrigerate after opening. Use within 3 days once opened.
+
+PRD-015 | Instant Noodle 5pk | INR 750/EA
+  Best for: Traditional trade, minimarkets
+  Key message: Price-sensitive segment. Avoid discount stacking.
+  Shelf life: 12 months. Store in cool, dry place.
+
+PRD-016 | Tomato Sauce 340g | INR 699/EA
+  Best for: Households, minimarkets
+  Key message: Bundle with PRD-013 for cooking combo promotion.
+  Shelf life: 24 months. Refrigerate after opening. Use within 7 days once opened.

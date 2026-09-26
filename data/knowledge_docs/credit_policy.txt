@@ -1,0 +1,74 @@
+CREDIT POLICY — FIELD SALES REFERENCE
+
+=== CREDIT LIMITS AND TERMS ===
+
+Standard credit terms: Net 30 days
+Extended terms available for: Tier-1 wholesalers only, requires manager approval
+
+Credit limit tiers:
+  Small (Minimarket/Corner store): INR 4,00,000 – INR 8,00,000
+  Medium (Retailer/Supermarket):   INR 8,00,000 – INR 16,00,000
+  Large (Wholesaler/Key account):  INR 16,00,000 – INR 40,00,000
+
+=== ORDER RULES BY CREDIT UTILIZATION ===
+
+Utilization below 70%:
+  - Full order allowed
+  - No approval needed
+  - Standard process
+
+Utilization 70% to 85%:
+  - Order allowed but flag to supervisor
+  - Remind customer of payment due date before confirming order
+
+Utilization 85% to 95%:
+  - Order can proceed ONLY if customer pays outstanding balance on visit
+  - Collect at least 50% of outstanding before releasing order
+  - Document payment on visit record
+
+Utilization above 95% — CREDIT BLOCK:
+  - Do NOT place order
+  - Escalate to credit controller before leaving outlet
+  - Offer cash-only order as alternative
+  - Do not accept post-dated cheques
+
+=== CHURN AND RECOVERY ACTIONS ===
+
+Customer not ordered in 15 to 30 days:
+  - Check for competitor activity at outlet
+  - Verify stock levels — stockpile may still be present
+  - Soft follow-up: What can we do to support your order this week?
+
+Customer not ordered in 31 to 45 days:
+  - Flag as at-risk in visit report
+  - Bring product samples or promotional offer
+  - Escalate to Area Sales Manager if two consecutive visits with no order
+
+Customer not ordered in 45 or more days:
+  - Formal churn risk — notify ASM immediately
+  - Structured recovery visit required
+  - Consider credit limit review if outstanding balance is high
+
+=== DISCOUNT AUTHORITY ===
+
+Field rep:           Up to 5% discount, no approval needed
+Area Sales Manager:  Up to 10% discount
+Regional Manager:    Up to 15% discount
+Country Manager:     Above 15%, exceptional cases only
+
+FOC (Free of Charge):
+  - Up to 2% of invoice value — field rep authority
+  - Must be recorded as INV_FOC_AMT on invoice
+
+=== RETURNS POLICY ===
+
+Damaged goods on delivery:
+  - Accept return immediately, issue credit note on same visit
+  - Photograph damage before accepting
+
+Short-dated stock less than 3 months to expiry:
+  - Field rep may accept return with supervisor approval
+  - No return accepted on frozen or chilled product once cold chain broken
+
+Customer changed mind:
+  - No return accepted once goods delivered and signed

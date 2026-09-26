@@ -1,0 +1,100 @@
+SALES GUIDELINES — FIELD SALES REFERENCE
+
+=== WHAT IS THIS FILE? ===
+
+This file contains the day-to-day selling strategies, visit objectives,
+upsell guidance, and KPI targets for field sales representatives.
+The agent uses this to answer questions like:
+- What should I recommend for this customer type?
+- How much should I suggest ordering?
+- What are my targets this month?
+
+=== PRE-VISIT PREPARATION ===
+
+Before every visit:
+1. Review customer's last 3 orders — look for dropped SKUs
+2. Check outstanding balance — do not arrive uninformed about credit
+3. Review next visit date vs actual visit — are you on schedule?
+4. Note seasonal period — Q4 October to December requires early stock building
+5. Check inventory at distributor for fast-moving SKUs before promising stock
+
+=== VISIT OBJECTIVES ===
+
+Every visit should achieve at least ONE of:
+  A. Order placed — primary objective
+  B. Payment collected on overdue balance
+  C. Distribution gained — new SKU placed at outlet
+  D. Return resolved with credit note
+  E. Relationship maintenance if customer is already well stocked
+
+=== ORDER QUANTITY RECOMMENDATION ===
+
+Baseline: use the customer's average monthly sales (AMS) as anchor
+  - AMS is available in system under M_MTHCUST table
+  - Suggest order = AMS multiplied by days until next visit divided by 30
+  - Add 20% buffer if Q4 or festive season is upcoming
+
+Seasonal uplift guidelines:
+  - November: add 20% on beverages and confectionery
+  - December: add 30% on all categories
+  - Diwali season October to November: add 25% on confectionery and beverages
+  - Ramadan market dependent: add 15% on dairy and culinary
+
+=== UPSELL AND CROSS-SELL PRIORITY ===
+
+By customer type:
+
+  Minimarket:
+    Core SKUs: PRD-002, PRD-007, PRD-009, PRD-015
+    Upsell to: PRD-001 if volume warrants 2kg size
+    Cross-sell: PRD-012 with PRD-009 for confectionery bundle
+
+  Supermarket:
+    Core SKUs: PRD-001, PRD-006, PRD-008, PRD-011, PRD-017
+    Upsell to: PRD-019 premium coffee for high margin
+    Cross-sell: PRD-018 oat drink with PRD-017 cereal as health bundle
+
+  Wholesaler:
+    Core SKUs: PRD-001, PRD-005, PRD-007, PRD-013
+    Upsell to: bulk packs and extended credit terms for large orders
+    Cross-sell: category bundles combining beverages, dairy, and culinary
+
+  Retailer:
+    Core SKUs: PRD-002, PRD-007, PRD-009, PRD-012, PRD-016
+    Upsell to: PRD-003 instant drink mix for higher margin
+    Cross-sell: PRD-013 with PRD-016 for cooking combo bundle
+
+  HoReCa and Food service:
+    Core SKUs: PRD-005, PRD-013, PRD-014, PRD-020
+    Relationship is key — visit frequency matters more than per-visit order size
+
+=== CHURN PREVENTION ===
+
+Red flags to watch for on visit:
+  - Competitor products taking shelf space your products had last visit
+  - Customer mentions cash flow problems — credit review needed
+  - SKU was ordered 3 months ago but not since — potential dropout
+  - Customer not present on multiple consecutive visits — investigate
+
+Recovery talking points:
+  - Our data shows you ordered X units of Y in Q4 last year.
+    Would you like to pre-position stock now?
+  - We have a limited promotional offer this week.
+    5% discount if you order before Friday.
+  - Your average monthly sales is X.
+    You are tracking below your average this month. How can I help?
+
+=== KPI TARGETS ===
+
+  Strike rate:       More than 80% of visits result in an order
+  Distribution:      All core SKUs present at every outlet
+  Credit collection: Outstanding below 60% of credit limit
+  Churn rate:        Less than 5% of active customers going 45 or more days without order
+
+=== REPORTING ===
+
+Same-day reporting required after every visit:
+  - Order placed or reason if not placed
+  - Payment collected
+  - Competitor observations
+  - Outlet condition including shelf space and display quality
